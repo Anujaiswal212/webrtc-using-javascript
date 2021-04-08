@@ -7,8 +7,9 @@ Hello , this is a simple implementation of webrtc
 
 **signalingServer**<br />
 This folder contains NodeJS Project.<br />
-
-Install NodeJS<br />
-Go to this folder<br />
-npm install<br />
-npm run<br />
+<ul>
+<li>Install NodeJS</li><br />
+<li>Go to this folder</li><br />
+<li>npm install</li><br />
+<li>npm start</li><br />
+  </ul>
