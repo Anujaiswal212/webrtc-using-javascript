@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>RTC Demo</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+    <script src="../scripts/jquery-3.4.1.min.js"></script>
+    <script src="video-stream-merger.js"></script>
+    <script src="demo.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        $(function () {
+
+            Demo.init();
+        });
+    </script>
+</head>
+
+<body>
+    <!-- <div>
+            <input placeholder="Enter username..."
+                    type="text"
+                    id="username-input" /><br>
+            <button onclick="sendUsername()">Send</button>
+            <button onclick="startCall()">Start Call</button>
+        </div> -->
+    <div id="video-call-div">
+        <video autoplay muted controls id="videoCtr" width="480" height="100"></video>
+        <!-- <video muted controls id="videoCtr" autoplay></video> -->
+        <video autoplay muted controls id="remoteVideoCtr" width="480" height="100"></video>
+        <!-- <video muted controls id="remoteVideoCtr" autoplay></video> -->
+        <div class="call-action-div">
+            <button id="startConnection">Start Connection</button>
+            <button id="btnMuteUnmute">UnMute</button>
+            <button id="btnStartStopCam">Start Camera</button>
+            <button id="btnStartStopScreenshare">Screen Share</button>
+        </div>
+    </div>
+</body>
+
+</html>
