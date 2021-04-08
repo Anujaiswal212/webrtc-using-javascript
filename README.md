@@ -3,13 +3,12 @@ Hello , this is a simple implementation of webrtc
 **How to run?**
 
 **rtcdemo**
-\nThis folder contains sender.html file of how to create RTCConnection and share metadata with peer through a 'signaling server'. It shows how we can send audio/video/screen share with peer.
+<br />This folder contains sender.html file of how to create RTCConnection and share metadata with peer through a 'signaling server'. It shows how we can send audio/video/screen share with peer.
 
-**signalingServer**
-This folder contains NodeJS Project.
+**signalingServer**<br />
+This folder contains NodeJS Project.<br />
 
-Install NodeJS
-Go to this folder
-npm install
-npm run
-https
+Install NodeJS<br />
+Go to this folder<br />
+npm install<br />
+npm run<br />
