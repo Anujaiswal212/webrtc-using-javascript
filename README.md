@@ -1,6 +1,6 @@
 # webrtc-using-javascript
 Hello , this is a simple implementation of webrtc
-**How to run?**
+<h2>How to run?</h2><br />
 
 **rtcdemo**
 <br />This folder contains sender.html file of how to create RTCConnection and share metadata with peer through a 'signaling server'. It shows how we can send audio/video/screen share with peer.
